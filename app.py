@@ -32,4 +32,4 @@ if st.button("Predict"):
     input_data = np.array([[sepal_length, sepal_width, petal_length, petal_width]])
     prediction = dtm_model.predict(input_data)
     speicies = ['Setosa', 'Versicolor', 'Virginica']
-    st.success(f"The Predicted Species is: **{Species[prediction[0]]}**")
+    st.success(f"The Predicted Species is: **{species[prediction[0]]}**")
